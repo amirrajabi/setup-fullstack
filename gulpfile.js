@@ -26,7 +26,7 @@ gulp.task('bundle', function(){
 
 });
 
-gulp.task('serve', ['live-server'], function(){
+gulp.task('serve', ['bundle', 'live-server'], function(){
     BrowserSync.init(null, {
         proxy : 'http://localhost:3000',
         port : 9001
