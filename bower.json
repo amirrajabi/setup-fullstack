@@ -1,0 +1,24 @@
+{
+  "name": "setup-fullstack",
+  "description": "setup",
+  "main": "index.js",
+  "authors": [
+    "AMIR-RAJABI"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "setup"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.14.1"
+  }
+}
